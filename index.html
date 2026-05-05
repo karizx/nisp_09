@@ -1,10 +1,41 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-<meta charset="UTF-8">
-<title>Symulacja konfliktu</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juwenalia AT Tarnów 2026 | Odpal kosmos!</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Hello AT!</h1>
+    <!-- Tło z wideo lub animowanym gradientem -->
+    <div class="animated-bg"></div>
+
+    <nav class="glass-nav">
+        <div class="logo">AT<span>Juwenalia</span></div>
+        <ul class="nav-links">
+            <li><a href="#lineup">Line-up</a></li>
+            <li><a href="#tickets">Bilety</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hidden">
+        <h1 class="neon-text">Największa impreza w Tarnowie!</h1>
+        <p>Przygotuj się na niezapomnianą noc pełną muzyki i neonów.</p>
+        <div id="countdown" class="glass-panel">
+            <!-- Tutaj JS wstrzyknie odliczanie -->
+        </div>
+        <a href="#tickets" class="cta-button">Kup Bilet</a>
+    </header>
+
+    <section id="lineup" class="hidden">
+        <h2>Kto zagra?</h2>
+        <div class="lineup-grid">
+            <div class="artist-card glass-panel">ZESPÓŁ 1</div>
+            <div class="artist-card glass-panel">ZESPÓŁ 2</div>
+            <div class="artist-card glass-panel">ZESPÓŁ 3</div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
 </body>
 </html>
